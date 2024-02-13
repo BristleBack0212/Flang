@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# virtual env 
+venv/
+.env
+*/venv/
+
+\.vscode/
+
+services/mongodb/data/
+services/mongodb/.mongodb
+services/mongodb/diagnostic.data
+services/mongodb/journal
+services/mongodb/.bash*
+services/mongodb/_mdb*
+services/mongodb/collection*
+services/mongodb/index*
+services/mongodb/mongod.lock
+services/mongodb/sizeStorer.wt
+services/mongodb/storage.bson
+services/mongodb/Wired*
+
+services/api/tmp/
+services/api/reports/
+services/api/flask_session/
+services/api/whooshee/
+
+services/api/.pytest_cache
+services/api/src/__pycache__
+
+
+automation-tests/angular-flask/venv/
+automation-tests/angular-flask/.pytest_cache/
+
+scripts/tmp/
